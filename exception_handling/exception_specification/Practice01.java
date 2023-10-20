@@ -26,9 +26,9 @@ class Test02 {
 public class Practice01 {
     public static void main(String args[]) {
         try {
-            Test01 OB2 = new Test01();
-            OB2.method1();
-        } catch (Exception01 e) {
+            Test02 OB2 = new Test02();
+            OB2.method01();
+        } catch (Exception02 e) {
             System.err.println("caught Exceptions: ");
             e.printStackTrace();
             e.show();
