@@ -1,4 +1,4 @@
-package polymarphizom;
+package polymarphizom.polymarphizom_abstraction;
 
 class DataMember {
     int a = 20;

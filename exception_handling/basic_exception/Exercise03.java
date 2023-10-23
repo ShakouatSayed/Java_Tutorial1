@@ -1,3 +1,13 @@
+
+/*
+Thinking in Java.
+ Exercise Solution 1:
+ 
+ Exercise 3: Write code to generate and catch an
+ ArraylndexOutOfBoundsException. 
+
+ */
+
 package exception_handling.basic_exception;
 
 import java.util.ArrayList;

@@ -1,20 +1,21 @@
 package PackageFour;
-class member{
+
+class member {
     String name;
     String idNum;
     String emailAdd;
     int yearOfBirth;
-    void show(){
-        System.out.println("\nName: "+name);
-        System.out.println("Id Name: "+idNum);
-        System.out.println("Email Address: "+emailAdd);
-        System.out.println("Year Of Address: "+yearOfBirth);
+
+    void show() {
+        System.out.println("\nName: " + name);
+        System.out.println("Id Name: " + idNum);
+        System.out.println("Email Address: " + emailAdd);
+        System.out.println("Year Of Address: " + yearOfBirth);
     }
 }
 
-
-public class test1{
-    public static void main(String args[]){
+public class test01 {
+    public static void main(String args[]) {
         member e1 = new member();
         e1.name = "Shakout Hossen Sayed.";
         e1.idNum = "666-53-26";
@@ -29,4 +30,3 @@ public class test1{
         e2.show();
     }
 }
-

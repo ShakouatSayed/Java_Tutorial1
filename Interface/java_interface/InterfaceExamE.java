@@ -1,10 +1,10 @@
 package java_interface;
 
-interface Sayed {
+interface SayedA {
     public void details();
 }
 
-class PersonInfo implements Sayed {
+class PersonInfo implements SayedA {
     int roll_num = 102;
     String name = "Sayed Shakouat";
 

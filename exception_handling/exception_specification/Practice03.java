@@ -37,7 +37,7 @@ class Type03 {
     }
 }
 
-public class Exercise02 {
+public class Practice03 {
     public static void main(String args[]) {
         try {
             Type01 OB1 = new Type01();

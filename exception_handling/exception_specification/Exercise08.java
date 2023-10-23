@@ -1,13 +1,17 @@
 
-/*Exercise 8: Write a class with a method that throws an exception of the type created 
- *in Exercise 4. Try compiling it without an exception specification to see what the compiler 
- *says. Add the appropriate exception specification. Try out your class and its exception inside 
- *a try-catch clause. 
+/*
+ Thinking in Java.
+ Exercise Solution 8: 
 
- *Exercise 4: Create your own exception class using the extends keyword. Write a 
- *constructor for this class that takes a String argument and stores it inside the object with a 
- *String reference. Write a method that displays the stored String. Create a try-catch clause 
- *to exercise your new exception.
+ Exercise 8: Write a class with a method that throws an exception of the type created 
+ in Exercise 4. Try compiling it without an exception specification to see what the compiler 
+ says. Add the appropriate exception specification. Try out your class and its exception inside a try-catch clause. 
+
+ Exercise 4: Create your own exception class using the extends keyword. Write a 
+ constructor for this class that takes a String argument and stores it inside the object with a 
+ String reference. Write a method that displays the stored String. Create a try-catch clause 
+ to exercise your new exception.
+
  */
 
 package exception_handling.exception_specification;
@@ -35,7 +39,7 @@ class Test01 {
     }
 }
 
-public class Exercise01 {
+public class Exercise08 {
     public static void main(String args[]) {
         try {
             Test01 OB1 = new Test01();

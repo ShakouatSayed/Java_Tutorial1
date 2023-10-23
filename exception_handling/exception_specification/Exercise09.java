@@ -1,3 +1,14 @@
+
+/*
+ Thinking in Java.
+ Exercise Solution 9: 
+
+ Exercise 9: Create three new types of exceptions. Write a class with a method that
+ throws all three. In main( ), call the method but only use a single catch clause that will
+ catch all three types of exceptions. 
+ 
+ */
+
 package exception_handling.exception_specification;
 
 class Type1 extends Exception {
@@ -18,7 +29,7 @@ class Type3 extends Exception {
     }
 }
 
-public class Exercise03 {
+public class Exercise09 {
     static void f(int x) throws Type1, Type2, Type3 {
         if (x < 0)
             throw new Type1("x <= 0");

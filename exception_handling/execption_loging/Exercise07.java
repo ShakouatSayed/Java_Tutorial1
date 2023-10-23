@@ -1,9 +1,11 @@
 
-/*Exercise 7: Modify Exercise 3 so that the catch clause logs the results.  
- * 
- *Exercise 3: Write code to generate and catch an 
-  ArraylndexOutOfBoundsException. 
- * 
+/*
+ Thinking in Java.
+ Exercise Solution 7: 
+
+ Exercise 7: Modify Exercise 3 so that the catch clause logs the results.  
+
+ Exercise 3: Write code to generate and catch an ArraylndexOutOfBoundsException. 
  */
 
 package exception_handling.execption_loging;

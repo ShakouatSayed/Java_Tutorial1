@@ -1,3 +1,13 @@
+
+/*
+ Thinking in Java.
+ Exercise Solution 5:
+ 
+ Exercise 5: Create your own resumption-like behavior using a while loop that
+ repeats until an exception is no longer thrown. 
+
+ */
+
 package exception_handling.basic_exception;
 
 import java.io.PrintWriter;
