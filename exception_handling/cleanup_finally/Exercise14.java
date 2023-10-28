@@ -1,16 +1,17 @@
 /*
- Thinking in Java.
- Exercise Solution 14: 
-
- Exercise 14: Show that OnOffSwitch.java can fail by throwing a
- RuntimeException inside the try block. 
- 
+ * Thinking in Java.
+ * Exercise Solution 14:
+ * 
+ * Exercise 14: Show that OnOffSwitch.java can fail by throwing a
+ * RuntimeException inside the try block.
+ * 
  */
+package exception_handling.cleanup_finally;
 
-class OnException extends Exception {
+class OonException extends Exception {
 };
 
-class OffException extends Exception {
+class OoffException extends Exception {
 };
 
 class Switch {
@@ -40,17 +41,18 @@ public class Exercise14 {
     private static Integer x[] = new Integer[1];
     private static Switch swc = new Switch();
 
-    public static void f(int x) throws OnException, OffException {
+    public static void f(int x) throws OonException, OoffException {
     };
 
     public static void main(String args[]) {
         try {
             swc.on();
+            // fail by throwing a RuntimeException inside the try block.
             f(x[0]);
             Exercise14.f(1);
-        } catch (OnException e) {
+        } catch (OonException e) {
             System.out.println("Caught Execption.");
-        } catch (OffException e) {
+        } catch (OoffException e) {
             System.out.println("Caught Execption.");
         } finally {
             swc.off();

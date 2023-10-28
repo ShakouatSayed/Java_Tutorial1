@@ -1,3 +1,4 @@
+package exception_handling.cleanup_finally;
 
 class FourException extends Exception {
 }

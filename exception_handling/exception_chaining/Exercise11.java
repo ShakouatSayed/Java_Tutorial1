@@ -1,9 +1,11 @@
 /*
- Thinking In Java
- Exercise Solution:
-
- Exercise 11: Repeat the previous exercise, but inside the catch clause, wrap g( )’s
- exception in a RuntimeException. 
+ * Thinking In Java
+ * Exercise Solution:
+ * 
+ * Exercise 11: Repeat the previous exercise, but inside the catch clause, wrap
+ * g( )’s
+ * exception in a RuntimeException.
+ * 
  */
 
 package exception_handling.exception_chaining;

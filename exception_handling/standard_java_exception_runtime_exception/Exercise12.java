@@ -1,10 +1,10 @@
 /*
-    Thinking In Java.
-    Exercise Sulution 12:
-
-    Exercise 12: Modify innerclasses/Sequence.java so that it throws an appropriate
-    exception if you try to put in too many elements. 
-    
+ * Thinking In Java.
+ * Exercise Sulution 12:
+ * 
+ * Exercise 12: Modify innerclasses/Sequence.java so that it throws an
+ * appropriate
+ * exception if you try to put in too many elements.
  */
 
 package exception_handling.standard_java_exception_runtime_exception;

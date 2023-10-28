@@ -7,6 +7,7 @@
  * RuntimeException inside the try block.
  * 
  */
+package exception_handling.cleanup_finally;
 
 class Exception01 extends Exception {
 

@@ -11,6 +11,7 @@
  catch all three types of exceptions. 
 
  */
+package exception_handling.cleanup_finally;
 
 class Type1 extends Exception {
     Type1(String s) {

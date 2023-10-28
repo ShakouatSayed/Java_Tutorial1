@@ -1,3 +1,4 @@
+package exception_handling.cleanup_finally;
 
 class Switch {
     boolean state = true;
