@@ -23,7 +23,7 @@ class Test02 {
     }
 }
 
-public class Practice01 {
+public class Example01 {
     public static void main(String args[]) {
         try {
             Test02 OB2 = new Test02();

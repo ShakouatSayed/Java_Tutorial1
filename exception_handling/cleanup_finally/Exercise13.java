@@ -1,16 +1,20 @@
 
 /*
- Thinking in Java.
- Exercise Solution 13:
-
- Exercise 13: Modify Exercise 9 by adding a finally clause. Verify that your finally
- clause is executed, even if a NullPointerException is thrown. 
-
- Exercise 9: Create three new types of exceptions. Write a class with a method that
- throws all three. In main( ), call the method but only use a single catch clause that will
- catch all three types of exceptions. 
-
+ * Thinking in Java.
+ * Exercise Solution 13:
+ * 
+ * Exercise 13: Modify Exercise 9 by adding a finally clause. Verify that your
+ * finally
+ * clause is executed, even if a NullPointerException is thrown.
+ * 
+ * Exercise 9: Create three new types of exceptions. Write a class with a method
+ * that
+ * throws all three. In main( ), call the method but only use a single catch
+ * clause that will
+ * catch all three types of exceptions.
+ * 
  */
+
 package exception_handling.cleanup_finally;
 
 class Type1 extends Exception {

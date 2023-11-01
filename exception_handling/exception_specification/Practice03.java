@@ -1,8 +1,10 @@
 
 /*
- * Exercise 9:   (2) Create three new types of exceptions. Write a class with a method that 
-throws all three. In main( ), call the method but only use a single catch clause that will 
- catch all three types of exceptions.
+ * Exercise 9: (2) Create three new types of exceptions. Write a class with a
+ * method that
+ * throws all three. In main( ), call the method but only use a single catch
+ * clause that will
+ * catch all three types of exceptions.
  */
 
 package exception_handling.exception_specification;
@@ -29,7 +31,8 @@ class Type02 {
 
 class Type03 {
     public void Exception03() throws Exception {
-        double bal[] = { 1054145.551, 20854521.21, 301245.21, 404548545.011, 50.2154154 };
+        double bal[] = { 1054145.551, 20854521.21, 301245.21, 404548545.011,
+                50.2154154 };
         for (int i = 0; i < bal.length; i++) {
             System.out.println(bal[i]);
         }

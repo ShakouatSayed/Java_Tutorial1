@@ -10,11 +10,9 @@
 package exception_handling.cleanup_finally;
 
 class Exception01 extends Exception {
-
 }
 
 class Exception02 extends Exception {
-
 }
 
 class Switch1 {

@@ -27,6 +27,11 @@ class ExceptionThree extends Exception {
 }
 
 public class Exercise10 {
+    public static void g() throws ExceptionOne {
+        // throw new ExceptionOne("null");
+        throw new ExceptionOne("null");
+    }
+
     public static void f() {
         try {
             try {
@@ -42,11 +47,6 @@ public class Exercise10 {
             System.out.println("Caught Exception..!");
             ex.printStackTrace(System.out);
         }
-    }
-
-    public static void g() throws ExceptionOne {
-        // throw new ExceptionOne("null");
-        throw new ExceptionOne("null");
     }
 
     public static void main(String args[]) {

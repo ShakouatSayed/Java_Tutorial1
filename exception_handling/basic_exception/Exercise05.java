@@ -1,11 +1,10 @@
 
 /*
- Thinking in Java.
- Exercise Solution 5:
- 
- Exercise 5: Create your own resumption-like behavior using a while loop that
- repeats until an exception is no longer thrown. 
-
+ * Thinking in Java.
+ * Exercise Solution 5:
+ * 
+ * Exercise 5: Create your own resumption-like behavior using a while loop that
+ * repeats until an exception is no longer thrown.
  */
 
 package exception_handling.basic_exception;
@@ -32,13 +31,13 @@ public class Exercise05 {
     public static void main(String args[]) {
         do {
             try {
-                for (int i = 0; i < arl.length; i++)
-                    System.out.println(s1);
+                for (int i = arl.length; i >= 0; i--)
+                    System.out.println(s1 + " " + i);
 
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Caough ArrayIndexOutOfBoundsException");
                 e.printStackTrace();
-                x--;
+                // x--;
                 System.err.println(e);
 
             } finally {

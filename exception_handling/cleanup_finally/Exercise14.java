@@ -14,7 +14,7 @@ class OonException extends Exception {
 class OoffException extends Exception {
 };
 
-class Switch {
+class Switch01 {
     boolean state = false;
 
     public boolean read() {
@@ -39,7 +39,7 @@ class Switch {
 public class Exercise14 {
 
     private static Integer x[] = new Integer[1];
-    private static Switch swc = new Switch();
+    private static Switch01 swc = new Switch01();
 
     public static void f(int x) throws OonException, OoffException {
     };
@@ -58,5 +58,4 @@ public class Exercise14 {
             swc.off();
         }
     }
-
 }

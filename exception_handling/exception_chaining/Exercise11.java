@@ -5,7 +5,6 @@
  * Exercise 11: Repeat the previous exercise, but inside the catch clause, wrap
  * g( )’s
  * exception in a RuntimeException.
- * 
  */
 
 package exception_handling.exception_chaining;
@@ -17,6 +16,10 @@ class ExceptionOne1 extends Exception {
 }
 
 public class Exercise11 {
+    public static void g() throws ExceptionOne1 {
+        throw new ExceptionOne1("Many Other Exception.");
+    }
+
     static void f() {
         try {
             g();
@@ -28,13 +31,7 @@ public class Exercise11 {
         }
     }
 
-    static void g() throws ExceptionOne1 {
-        throw new ExceptionOne1("null");
-
-    }
-
     public static void main(String args[]) {
         f();
     }
-
 }

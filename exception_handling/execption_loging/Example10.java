@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 import PackageFive.method1;
 
-public class Exercise08 {
+public class Example10 {
     private static Logger logger = Logger.getLogger("Exception Handeling ... Exrecise 08...!");
 
     public static void method1(Exception e) {

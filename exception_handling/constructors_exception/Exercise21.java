@@ -12,14 +12,14 @@ package exception_handling.constructors_exception;
 class ConstructionExecption01 extends Exception {
 }
 
-class NeedCleanUp {
-    public NeedCleanUp() throws ConstructionExecption01 {
+class NeedCleanUp01 {
+    public NeedCleanUp01() throws ConstructionExecption01 {
         throw new ConstructionExecption01();
     }
 }
 
-class NeedCleanUp01 extends NeedCleanUp {
-    public NeedCleanUp01() throws ConstructionExecption01 {
+class NeedCleanUp02 extends NeedCleanUp01 {
+    public NeedCleanUp02() throws ConstructionExecption01 {
         super();
     }
 }
