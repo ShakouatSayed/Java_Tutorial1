@@ -65,9 +65,9 @@ public class Exarcise25 {
         try {
             a.f();
         } catch (CThree e) {
-            System.out.println("A One...!");
+            System.out.println("C One...!");
         } catch (BTwo e) {
-            System.out.println("A One...!");
+            System.out.println("B One...!");
         } catch (AOne e) {
             System.out.println("A One...!");
         }
@@ -81,6 +81,5 @@ public class Exarcise25 {
         } catch (AOne e) {
             System.out.println("A One.");
         }
-
     }
 }

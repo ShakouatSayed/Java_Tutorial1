@@ -54,7 +54,7 @@ class FailingConstructor24 {
     }
 }
 
-public class Exercis24 {
+public class Exercise24 {
     public static void main(String args[]) {
         try {
             FailingConstructor24 fa = new FailingConstructor24("Exercise24.java");

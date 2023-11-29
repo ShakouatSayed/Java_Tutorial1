@@ -6,7 +6,6 @@
  * RuntimeException. Modify main( ) so that the technique in
  * TurnOffChecking.java is
  * used to handle the different types of exceptions.
- * 
  */
 
 package exception_handling.ConChe_uncExc;
