@@ -4,10 +4,7 @@
  */
 package Interface_class;
 
-/**
- *
- * @author SHAKOUAT HOSSEN
- */
+
 class Animal {
 
     String name, color, breed;

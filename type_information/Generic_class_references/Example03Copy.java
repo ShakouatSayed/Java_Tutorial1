@@ -36,7 +36,7 @@ public class Example03Copy{
         for (Class space : c.getInterfaces())
             printInfo(space);
             
-            
+ 
         Class up = c.getSuperclass();
         Object obj = null;
 

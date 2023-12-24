@@ -4,10 +4,6 @@
  */
 package Interface_class;
 
-/**
- *
- * @author SHAKOUAT HOSSEN
- */
 interface InterFA {
 
     final int a = 10;

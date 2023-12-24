@@ -10,14 +10,13 @@ public class CountingRecursively extends HashMap<Class<?>, Integer>{
         this.base_type = bClass;
     }
 
-    
     public void count(Object ob){
         Class<?> type = ob.getClass();
         if(!base_type.isAssignableFrom(type))
             throw new RuntimeException(ob+"incorrect type: "+type+"Should by type of "+base_type);
         countClass(type);
     }
-
+   
     public void countClass(Class<?> type){
         Integer quantety = get(type);
         put(type, quantety == null?1: quantety+1);
@@ -27,7 +26,7 @@ public class CountingRecursively extends HashMap<Class<?>, Integer>{
     }
 
     public String toString(){
-        StringBuilder sb = new StringBuilder("{");
+        StringBuilder sb = new StringBuilder("{\n");
         for(Map.Entry<Class<?>, Integer>pair:entrySet()){
             sb.append(pair.getKey().getSimpleName());
             sb.append("=");
@@ -35,7 +34,7 @@ public class CountingRecursively extends HashMap<Class<?>, Integer>{
             sb.append(",\n");
         }
         sb.delete(sb.length()-2, sb.length());
-        sb.append("}"+"\n");
+        sb.append("\n}"+"\n");
         return sb.toString();
     }
 }
