@@ -10,14 +10,14 @@ package PackageFive;
  * @author SHAKOUAT HOSSEN
  */
 public class fibonacci_num {
-    public static void main(String[] arg){
-        int n1 = 0, n2 = 1, i = 2,n;
-        while(i <= 15){
+    public static void main(String[] arg) {
+        int n1 = 0, n2 = 1, i = 2, n;
+        while (i <= 15) {
             n = n1 + n2;
-            System.out.println(n); 
             n1 = n2;
             n2 = n;
+            System.out.println(n);
             i++;
         }
-    }  
+    }
 }
