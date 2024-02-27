@@ -19,11 +19,9 @@ abstract class InterFB implements InterFA {
 }
 
 public class Example02 extends InterFB {
-
     public static void main(String args[]) {
         Example02 OB1 = new Example02();
         OB1.method1();
         System.out.println(a);
     }
-
 }

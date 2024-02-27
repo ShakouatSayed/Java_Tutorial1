@@ -58,7 +58,7 @@ package problem_solving_question;
 
 public class JoinThread extends Thread {
       public void run() {
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 100; i++) {
             try {
                 //sleeping thread time is 400 milisecond
                 Thread.sleep(400);
@@ -67,13 +67,13 @@ public class JoinThread extends Thread {
                 //exception the not create thread
                 System.out.println("The thread exception is caught."+e);
             }
-            System.out.println(i);
+            System.out.println(i+" : "+"I love Java Programming Language and Software Engineer.");
         }
     }
     public static void main(String[] args) {
         JoinThread inner_joind_thread1 = new JoinThread();
-        JoinThread inner_joind_thread2 = new JoinThread();
-        JoinThread inner_joind_thread3 = new JoinThread();
+        //JoinThread inner_joind_thread2 = new JoinThread();
+        //JoinThread inner_joind_thread3 = new JoinThread();
 
         inner_joind_thread1.start();
         try {
@@ -82,7 +82,7 @@ public class JoinThread extends Thread {
         } catch (Exception e) {
             System.out.println(e);
         }
-        inner_joind_thread2.start();
-        inner_joind_thread3.start();
+        //inner_joind_thread2.start();
+        //inner_joind_thread3.start();
     }
 }
