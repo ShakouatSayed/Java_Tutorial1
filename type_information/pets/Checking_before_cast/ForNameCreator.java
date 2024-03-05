@@ -13,6 +13,7 @@ public class ForNameCreator extends PetCreator{
         "type_information.pets.Checking_before_cast.pets_animals.Cat",
         "type_information.pets.Checking_before_cast.pets_animals.Ret",
         "type_information.pets.Checking_before_cast.pets_animals.Rodent",
+        "type_information.pets.Checking_before_cast.pets_animals.Gerbil",
         "type_information.pets.Checking_before_cast.pets_animals.CatManxCymric",
         "type_information.pets.Checking_before_cast.pets_animals.CatManx",
         "type_information.pets.Checking_before_cast.pets_animals.Hamster",

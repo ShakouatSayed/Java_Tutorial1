@@ -9,8 +9,8 @@
 
 package generics.Simple_generics;
 
+import type_information.pets.Checking_before_cast.pets_animals.*;
 
-class Pet{}
 
 public class Exercise01<T> {
     private T t;
@@ -18,13 +18,20 @@ public class Exercise01<T> {
     public void set(T t){this.t = t;}
     public T get(){return t;}
     public static void main(String[] args) {
-        Exercise01<AutoMobile> ex = new Exercise01<AutoMobile>(new AutoMobile() {
-            //AutoMobile a = ex.get();
-            // System.out.println(ex.get());
-            // ex.set(new Dog());
-            // System.out.println(ex.get());
-            // ex.set(new Gabril());
-            // System.out.println(ex.get());
-        });
+        IndividualPet iP = new IndividualPet();
+        Exercise01<IndividualPet> ex = new Exercise01<IndividualPet>(iP);
+        IndividualPet a = ex.get();
+
+        ex.set(new IndividualPet("Many Pet under list."));
+        System.out.println(ex.get());
+
+        ex.set(new Dog("Tunder"));
+        System.out.println(ex.get());
+
+        ex.set(new Rodent("Alex"));
+        System.out.println(ex.get());
+
+        ex.set(new Gerbil("Gebriel"));
+        System.out.println(ex.get());
     }
 }

@@ -35,6 +35,8 @@ public class PetCount {
                 petCount.count("CatManxCymric");
             if (pet instanceof Rodent)
                 petCount.count("Rodent");
+            if(pet instanceof Gerbil)
+                petCount.count("Gerbil");
             if (pet instanceof Ret)
                 petCount.count("Ret");
             if (pet instanceof Mouse)

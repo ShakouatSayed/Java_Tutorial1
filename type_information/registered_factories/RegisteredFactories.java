@@ -94,7 +94,6 @@ class GeneratorBelt extends Belt{
 
 public class RegisteredFactories {
     public static void main(String args[]){
-        CountingRecursively cr = new CountingRecursively(Part.class);
         for(int i = 0; i < 10; i++){
             System.out.println(Part.createRandom());
         }
